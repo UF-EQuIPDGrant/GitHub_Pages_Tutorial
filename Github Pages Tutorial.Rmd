@@ -1,6 +1,6 @@
 ---
 title: "GitHub Pages Tutorial"
-author: "Krista Dulany"
+author: "Jared Carter"
 date: "2022-09-02"
 output:
   html_document:
@@ -14,7 +14,7 @@ output:
 
 ---
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/EQuIPD logo_horizontal.png){width=75%}
+![](Tutorial Images/EQuIPD logo_horizontal.png){width=75%}
 
 
 
@@ -62,21 +62,21 @@ This information is provided by the LASER institute
 
 Go to the EQuIPD GitHub page: https://github.com/UF-EQuIPDGrant
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/EQuIPD_Profile.png)
+![](Tutorial Images/EQuIPD_Profile.png)
 
 Repositories shows all the repositories that the person or organization has created or forked (made a personal copy from another source). We will talk about cloning and forking in a moment. For this tutorial we will be using **GitHub_Pages_Tutorial** repository.
 https://github.com/UF-EQuIPDGrant/GitHub_Pages_Tutorial
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Repositories.png)
+![](/Tutorial Images/Repositories.png)
 
 ### Creating a New Repository
 
 We will briefly walk through creating a new repository. This is the process you would take when you wanted to start a new project to analyze data or create a GitHub page on your own. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/New Repo.png)
+![](Tutorial Images/New Repo.png)
 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/New Repo_2.png){width=75%}
+![](Tutorial Images/New Repo_2.png){width=75%}
 
 ### Forking Versus Cloning
 
@@ -86,13 +86,13 @@ There is an important distinction between cloning a repository and forking a rep
 
 **Cloning** is the act of creating a linked version of the repository local to your account and computer through GitHub desktop. This option is great if you are collaborating with a team to develop something together. The main version is updated by the group. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Cloning.png)
+![](Tutorial Images/Cloning.png)
 
 **Forking** is the act of creating your own copy that is not linked to others. This is a great option when you are wanting to modify a repository or project that you found online or if you are working together but not needing to keep a single version. Information and updates from the original will still update from the original source. *In our case we will be Forking our repository so everyone has their own version and we do not overwrite each other.* 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Forking_1.png){width=75%}
+![](Tutorial Images/Forking_1.png){width=75%}
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Forking_2.png){width=75%}
+![](Tutorial Images/Forking_2.png){width=75%}
 
 Once you create your forked repository we then move to GitHub Desktop
 
@@ -104,12 +104,12 @@ Use Fetch/Pull to get new information from the main server. Use Commit to update
 
 Use open in RStudio to open the project in an editor workspace or use Show in Finder toview the documents in this repository. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/GitHub Desktop.png){width=75%}
+![](Tutorial Images/GitHub Desktop.png){width=75%}
 
 When you drop down the selection tool to navigate between repositories, there should be a forked symbol next to the GitHub Pages Tutorial repository. A book symbol notifies that a repository is a clone. 
 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Fork v Clone.png){width=75%}
+![](Tutorial Images/Fork v Clone.png){width=75%}
 
 Let's move into the basics of R Markdown.
 
@@ -124,14 +124,14 @@ We will then see this document in a preview window and we are then going to sele
 
 The first part of an R Markdown page is the YAML header. This is where you title the page, add an author, set the date, and choose a file type to process into. YAML allows you to format the output of the document you are producing with elements like themes, various types of tables of contents, section numbering, and figure sizes. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Knit.png){width=75%}
+![](Tutorial Images/Knit.png){width=75%}
 
 YAML stands for: YAML Ain't Markup Language™ and is a human-friendly data serialization language for all programming languages.
 
 This resource provides a good amount of information on formatting your document. 
 https://bookdown.org/yihui/rmarkdown/html-document.html
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/YAML.png){width=50%}
+![](Tutorial Images/YAML.png){width=50%}
 
 ### Update the YAML header
 
@@ -200,14 +200,14 @@ To jump to sections in the document use the following code: [Section Header]. Th
 A big part of a webpage is displaying images or documents. Use the piece of code below to display images and preview word or PDF documents. *Note* the viewer for PDF is very shallow and shows a small portion of the page.
 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Insert Image.png){width=50%}
+![](Tutorial Images/Insert Image.png){width=50%}
 
 We are going to grab the file path to insert a cute alligator into the page. 
 To grab the file path, go to the file, select get info, and copy the file path. 
 
 Documents > GitHub > GitHub_Pages_Tutorial > Images > Gator.png
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Image Steps.png)
+![](Tutorial Images/Image Steps.png)
 
 
 ### Inserting Code Chunks
@@ -261,7 +261,7 @@ Now that we have our document ready to go we are going to want to host it for ot
 
 3. Then we go to GitHub Desktop and Commit the edits and updates to the repository
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/KnitCommit.png)
+![](Tutorial Images/KnitCommit.png)
 
 4. Go to **your** GitHub page on the browser 
 
@@ -269,17 +269,17 @@ Now that we have our document ready to go we are going to want to host it for ot
 
 6. Open the **Settings** option
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Fork Settings.png)
+![](Tutorial Images/Fork Settings.png)
 
 7. Select Pages from the left hand menu
 
 8. For your page to be active, you need to identify which **branch** to publish. In our case, we only have one **main**. Press save. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Branch.png)
+![](Tutorial Images/Branch.png)
 
 9. Be patient and refresh and your webpage. A link will display at the top. This is the base link for your repository. 
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Pages Live.png)
+![](Tutorial Images/Pages Live.png)
 
 10. Then you need to visit page or copy the start of the url. 
 
@@ -289,7 +289,7 @@ Now that we have our document ready to go we are going to want to host it for ot
 
 *This will update as you work on your content in R markdown. Follow steps 1-3 to update your page. Note: There is a bit of a delay in updating across so hang in there and it will eventually refresh and load.*
 
-![](/Users/kristadulany/Documents/GitHub/GitHub_Pages_Tutorial/Tutorial Images/Page live2.png)
+![](Tutorial Images/Page live2.png)
 
 
 
